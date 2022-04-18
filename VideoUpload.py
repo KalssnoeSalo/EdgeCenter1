@@ -20,7 +20,7 @@ jsonCode = {
 "client_user_id": 10,
 "stream_id": 1
 }
-}#JSON од для POST запроса
+}#JSON код для POST запроса
 
 res = requests.post(createVideo_url, json=jsonCode, headers=headers) #Записываение ответа от POST запроса для создания слота для заливки видео в переменную res
 
